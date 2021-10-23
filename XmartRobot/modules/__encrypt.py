@@ -1,4 +1,4 @@
-from XMARTROBOT import telethn as tbot
+from XmartRobot import telethn as tbot
 import os
 from XMARTROBOT.events import register
 import secureme

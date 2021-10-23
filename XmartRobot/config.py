@@ -19,7 +19,7 @@ import sys
 import yaml
 from envparse import env
 
-from AmeliaRobot.utils.logger import log
+from XmartRobot.utils.logger import log
 
 DEFAULTS = {
     "LOAD_MODULES": True,

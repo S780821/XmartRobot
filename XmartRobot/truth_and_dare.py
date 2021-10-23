@@ -1,9 +1,9 @@
 import html
 import random
-import AsunaRoBot.modules.truth_and_dare_string as truth_and_dare_string
-from AsunaRoBot import dispatcher
+import XmartRobot.modules.truth_and_dare_string as truth_and_dare_string
+from XmartRobot import dispatcher
 from telegram import ParseMode, Update, Bot
-from AsunaRoBot.modules.disable import DisableAbleCommandHandler
+from XmartRobot.modules.disable import DisableAbleCommandHandler
 from telegram.ext import CallbackContext, run_async
 
 @run_async

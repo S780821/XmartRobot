@@ -53,9 +53,9 @@ url = "https://acobot-brainshop-ai-v1.p.rapidapi.com/get"
 from google_trans_new import google_translator
 from pyrogram import filters
 
-from XMARTROBOT.helper_extra.aichat import add_chat, get_session, remove_chat
-from XMARTROBOT.pyrogramee.pluginshelper import admins_only, edit_or_reply
-from XMARTROBOT import pbot as Xmart
+from XmartRobot.helper_extra.aichat import add_chat, get_session, remove_chat
+from XmartRobot.pyrogramee.pluginshelper import admins_only, edit_or_reply
+from XmartRobot import pbot as Xmart
 
 translator = google_translator()
 

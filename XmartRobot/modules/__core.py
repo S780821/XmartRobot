@@ -1,15 +1,15 @@
-from XMARTROBOT import telethn as tbot
-from XMARTROBOT.events import register
+from XmartRobot import telethn as tbot
+from XmartRobot.events import register
 import os
 import asyncio
 import os
 import time
 from datetime import datetime
-from XMARTROBOT import OWNER_ID
-from XMARTROBOT import TEMP_DOWNLOAD_DIRECTORY as path
-from XMARTROBOT import TEMP_DOWNLOAD_DIRECTORY
+from XmartRobot import OWNER_ID
+from XmartRobot import TEMP_DOWNLOAD_DIRECTORY as path
+from XmartRobot import TEMP_DOWNLOAD_DIRECTORY
 from datetime import datetime
-water = './XMARTROBOT/resources/Xmart.jpg'
+water = './XmartRobot/resources/Xmart.jpg'
 client = tbot
 
 @register(pattern=r"^/send ?(.*)")
@@ -21,7 +21,7 @@ async def Prof(event):
     thumb = water
     message_id = event.message.id
     input_str = event.pattern_match.group(1)
-    the_plugin_file = "./XMARTROBOT/modules/{}.py".format(input_str)
+    the_plugin_file = "./XmartRobot/modules/{}.py".format(input_str)
     if os.path.exists(the_plugin_file):
      message_id = event.message.id
      await event.client.send_file(
@@ -36,7 +36,7 @@ async def Prof(event):
         await event.reply("No File Found!")
 
 
-from XMARTROBOT.events import load_module
+from XmartRobot.events import load_module
 import asyncio
 import os
 from datetime import datetime

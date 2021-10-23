@@ -10,7 +10,6 @@ from XmartRobot.modules.helper_funcs.chat_status import (
     user_admin,
 )
 from XmartRobot.modules.helper_funcs.extraction import (
-    get_user_id
     extract_user,
     extract_user_and_text,
 )

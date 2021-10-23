@@ -1,6 +1,6 @@
 from XmartRobot import telethn as tbot
 import os
-from XMARTROBOT.events import register
+from XmartRobot.events import register
 import secureme
 
 @register(pattern="^/encrypt ?(.*)")

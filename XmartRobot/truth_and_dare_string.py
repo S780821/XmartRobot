@@ -35,7 +35,7 @@ DARE = (
     "Like the first 15 posts on your Facebook newsfeed",
     "Eat a spoonful of mustard",
     "Keep your eyes closed until it's your go again",
-    "Send a sext to the last person in your phonebook",
+    "Send a text to the last person in your phonebook",
     "Show off your orgasm face",
     "Seductively eat a banana",
     "Empty out your wallet/purse and show everyone what's inside",
@@ -70,5 +70,5 @@ DARE = (
     "Send a screenshot of your gallery.",
     "Set your crush’s picture as your dp.",
     "Suggest me more dares.",
-    "Send i love uh message to @itsmelegend.",
+    "Send i love uh message to @Xmartperson.",
 )

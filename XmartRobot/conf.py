@@ -1,5 +1,5 @@
 from envparse import env
-from AmeliaRobot import LOGGER
+from XmartRobot import LOGGER
 
 DEFAULTS = {
     "LOAD_MODULES": True,

@@ -7,7 +7,7 @@ import spamwatch
 import telegram.ext as tg
 from pyrogram import Client, errors
 from telethon import TelegramClient
-from AmeliaRobot.utils.logger import log 
+from XmartRobot.utils.logger import log 
 StartTime = time.time()
 
 # enable logging
@@ -199,7 +199,7 @@ DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
 # Load at end to ensure all prev variables have been set
-from AmeliaRobot.modules.helper_funcs.handlers import (
+from XmartRobot.modules.helper_funcs.handlers import (
     CustomCommandHandler,
     CustomMessageHandler,
     CustomRegexHandler,

@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/XMARTROBOT 
+# Copy Python Requirements to /root/XmartRobot 
 RUN git clone -b shiken https://github.com/HuntingBots/AsunaRobot /root/AsunaRobot
 WORKDIR /root/AsunaRobot
 
-#Copy config file to /root/XMARTROBOT/XMARTROBOT
-COPY ./AsunaRobot/sample_config.py ./XMARTROBOT/config.py* /root/XMARTROBOT/XMARTROBOT/
+#Copy config file to /root/XmartRobot/XmartRobot
+COPY ./AsunaRobot/sample_config.py ./XmartRobot/config.py* /root/XmartRobot/XmartRobot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","XMARTROBOT"]
+CMD ["python3","-m","XmartRobot"]
